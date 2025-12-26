@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Footer</title>
+
+  <!-- Font Awesome (ICONS) -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+}
+
+/* TOP */
+.footer-top {
+  background: white;
+  padding: 60px;
+  position: relative;
+}
+
+.footer-top h1 {
+  font-size: 48px;
+  border-bottom: 3px solid #d7ff00;
+  display: inline-block;
+}
+
+.heard {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.arrow-circle {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background: #d7ff00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  background: linear-gradient(90deg, #000, #222);
+  color: white;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.col h2 {
+  font-size: 32px;
+}
+
+.col h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.col p {
+  font-size: 13px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.col a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: white;
+  text-decoration: underline;
+}
+
+.follow {
+  margin-top: 30px;
+}
+
+/* SOCIAL ICONS (INLINE) */
+.socials {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.socials i {
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.socials i:hover {
+  opacity: 1;
+}
+
+/* BOTTOM RIGHT CORNER ICONS */
+.corner-icons {
+  position: absolute;
+  bottom: 25px;
+  right: 40px;
+  display: flex;
+  gap: 18px;
+}
+
+.corner-icons i {
+  font-size: 18px;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.corner-icons i:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<footer class="footer">
+
+  <!-- TOP WHITE PART -->
+  <div class="footer-top">
+    <p class="heard">HEARD ENOUGH? →</p>
+    <h1>Contact us</h1>
+    <div class="arrow-circle">→</div>
+  </div>
+
+  <!-- BOTTOM BLACK PART -->
+  <div class="footer-bottom">
+
+    <div class="col">
+      <h2>The agency<br>for impatient<br>brands®</h2>
+    </div>
+
+    <div class="col">
+      <h4>LONDON</h4>
+      <p>
+        educatedloofer01@gmail.com<br>
+        +44 20 7998 7571<br>
+        Unit 306, Metropolitan Wharf,<br>
+        70 Wapping Wall, London E1W 3SS
+      </p>
+      <a href="https://github.com/abc/web-and-app-assignment-5/settings/pages">SEE ON MAP ↗</a>
+    </div>
+
+    <div class="col">
+      <h4>BUENOS AIRES</h4>
+      <p>
+        buenosaires@weareimpero.com<br>
+        +54 11 6799 7949<br>
+        Cabildo 1458 1st floor,<br>
+        Buenos Aires
+      </p>
+      <a href="https://github.com/abc/web-and-app-assignment-5/settings/pages">SEE ON MAP ↗</a>
+    </div>
+
+    <div class="col">
+      <h4>WANT TO BE THE SMARTEST<br>IN YOUR OFFICE?</h4>
+      <a href="https://github.com/abc/web-and-app-assignment-5/settings/pages">SIGN UP FOR OUR NEWSLETTER →</a>
+
+      <h4 class="follow">FOLLOW US</h4>
+
+      <!-- INLINE ICONS -->
+      <div class="socials">
+        <i class="fa-brands fa-behance"></i>
+        <i class="fa-brands fa-dribbble"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+    </div>
+
+  </div>
+
+
+</footer>
+
+</body>
+</html>
